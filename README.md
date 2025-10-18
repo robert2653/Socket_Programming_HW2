@@ -22,7 +22,6 @@ This project implements a pair of TCP client/server programs in C on a LINUX env
 ├── 411430018_TCPServer.c  (Server source code)
 ├── 411430018_TCPClient.c  (Client source code)
 ├── Makefile               (Compilation makefile)
-├── 411430018_Readme.pdf   (This readme file)
 └── Image/                   (Screenshot directory)
     ├── server.png
     ├── client.png
