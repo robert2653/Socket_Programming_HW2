@@ -110,11 +110,13 @@ Screenshots of the program execution are included below.
 ### A. Server Execution
 
 (Server starts listening, shows client connection and received messages)
+
 ![Server Execution](Image/server.png)
 
 ### B. Client Execution
 
 (Client connects successfully, sends messages, and receives the server's echo)
+
 ![Client Execution](Image/client.png)
 
 ### C. TCP Packet Capture (3-Way Handshake)
