@@ -119,12 +119,12 @@ Screenshots of the program execution are included below.
 
 ### C. TCP Packet Capture (3-Way Handshake)
 
-(Using `tcpdump` to capture the full exchange.
+(Use `tcpdump` to capture the full exchange)
 - **Lines 1-3:** The TCP 3-way handshake (`[S]`, `[S.]`, `[.]`) establishing the connection.
 - **Lines 4-7:** The data transfer for the string "Hi" (which is 3 bytes: 'H', 'i', '\n').
     - Line 4: Client sends "Hi" (`[P.]`, length 3).
     - Line 5: Server acknowledges the "Hi" (`[.]`).
     - Line 6: Server echoes "Hi" back (`[P.]`, length 3).
     - Line 7: Client acknowledges the echo (`[.]`).
-)
+
 ![TCP Packet Capture](Image/packet_capture.png)
